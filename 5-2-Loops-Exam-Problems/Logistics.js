@@ -24,7 +24,7 @@ function calculateLogisticsStats(args) {
         }
     }
 
-    let pricePerWeight = (totalPrice / totalWeight).toFixed(2); // wij tuk
+    let pricePerWeight = (totalPrice / totalWeight).toFixed(2);
     busPercentage = ((busPercentage / totalWeight) * 100).toFixed(2);
     truckPercentage = ((truckPercentage / totalWeight) * 100).toFixed(2);
     trainPercentage = ((trainPercentage / totalWeight) * 100).toFixed(2);
