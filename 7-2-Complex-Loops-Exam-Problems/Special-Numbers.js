@@ -14,7 +14,7 @@ function printSpecialNumbers(input) {
             }
 
             if (count === 4) {
-                output += number + " ";1
+                output += number + " ";
             }
         }
     }
